@@ -6,7 +6,7 @@ Answer: No becase E2E tests simulate user interaction with the entire system, no
 ## 3) What is the difference between navigation and snapshot mode?
 Answer: Navigation mode loads the full page to test performance from start to finish. Snapshot mode captures the current page state without reloading.
 ## 4) Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
-Answer: To improve the CSE 110 shop site, we could reduce JavaScript size, compress images, and add alt text for better accessibility.
+Answer: We could properly size the product images to save 800 KB and improve load performance. We should also add a <meta name="viewport"> tag to make the page responsive for mobile users. Lastly, we could add a [lang] attribute to the <html> tag to improve accessibility for screen readers and users in different locales.
 
 
 
